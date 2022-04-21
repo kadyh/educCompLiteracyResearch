@@ -10,7 +10,8 @@ import numpy as np
 from configparser import ConfigParser
 import csv
 import sys
-sys.path.insert(0, '/Users/kadyh/Documents/GitHub/analysisAndHandlers/handlers.py')
+import matplotlib.pyplot as plt
+sys.path.append(r'C:\Users\kadyh\Documents\GitHub\analysisAndHandlers')
 from handlers import handlers
 from analysisFunc import analysisFunc
 #%% Initialize
@@ -31,27 +32,36 @@ def main():
     dfCODAP=dfCODAP.iloc[:,:9]
     # Code computer literacy based off of survey results and make new column w the new code
     dfCompLit=anFunc.codeCompLitSurvey(dfCompLit)
+    # Bucket scores, create new column
     # Merge horizontally, if empty then NA
-    
-    # Save that as a DF
-    
+    combinedDFwNA=handle.tripleJoinByNewKey(dfWS,dfCompLit,dfCODAP,'name','CompLit','CODAP')
+    combinedDFwNA=combinedDFwNA.rename(columns={"scoreCompLit":"scoreWS"})
     # Create a new DF that drops rows with any NA
-    
+    combinedDFnoNA=combinedDFwNA.dropna()
     # paired T tests 
      
-    # Bucket scores, create new column
-    
-    # Graph: Scatter plot of computer literacy as a color on legend with paper vs codap activity scores
-    
+   
     # Graph: Scatter plot of computer literacy vs codap scores 
-    
-    # Graph: Distribution (histogram) of student performance on paper activity
-    
-    return dfCompLit,dfWS,dfCODAP
+    scatterCompLitvCODAP=plt.figure(1)
+    plt.scatter(combinedDFnoNA['literacyScore'],combinedDFnoNA['scoreCODAP'])
+    plt.xlabel('Computer Literacy Score')
+    plt.ylabel('CODAP Scores')
+    # Graph: Scatter plot of computer literacy as a color on legend with paper vs codap activity scores
+    scatterPapervCODAP=plt.figure(2)
+    colors = {'75thto100':'red', '50thTo75th':'orange', '25thTo50th':'green', '0To25th':'blue'}
+    freqCols=combinedDFnoNA[['scoreWS','scoreCODAP','literacyScoreCat']]
+    freqGrouped=freqCols.groupby(['scoreWS','scoreCODAP']).transform(len)
+   
+    freqGrouped=freqCols.groupby(['scoreWS','scoreCODAP']).transform(len)
+    plt.scatter(combinedDFnoNA['scoreWS'],combinedDFnoNA['scoreCODAP'], c=combinedDFnoNA['literacyScoreCat'].map(colors),s=freqGrouped*10)
+    plt.xlabel('WS Score')
+    plt.ylabel('CODAP Scores')
+
+    return combinedDFwNA, combinedDFnoNA
     
 
         
 
 if __name__ == "__main__":
-    dfCompLit,dfWS,dfCODAP=main()
+    combinedDFwNA,combinedDFnoNA=main()
 
