@@ -37,3 +37,7 @@ class analysisFunc:
             elif df['literacyScore'][i] > np.percentile(df['literacyScore'],75): 
                 df['literacyScoreCat'][i]='75thto100'
         return df
+    
+
+            
+        

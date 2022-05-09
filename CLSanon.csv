@@ -1,0 +1,72 @@
+keysCol,"Do you have a computer/laptop at home? (Includes PC, Mac, etc. but does NOT include iPads etc.)",What type of computer/laptop do you have?,How many hours do you spend on a computer per day on average?,Do you have an iPad/tablet?,How many hours do you spend on a tablet per day on average?,Do you have a smartphone?,How many hours do you spend on a smartphone per day on average?,Which of the following have you used and approximately how often do you use them? [Desmos],Which of the following have you used and approximately how often do you use them? [CODAP],Which of the following have you used and approximately how often do you use them? [Google Sheets],literacyScore,literacyScoreCat
+34,Yes,Chromebook,2,No,0,Yes,8,Once a month,Never Used,Once a month,12,75thto100
+291,Yes,PC,2,Yes,2,Yes,1,Daily,Once a semester,Daily,7,25thTo50th
+524,Yes,PC,3,No,0,Yes,3,Once a month,Never Used,Once a semester,9,50thTo75th
+734,Yes,Chromebook,2,Yes,3,Yes,2,Once a month,Once a semester,Once a week,9,50thTo75th
+790,Yes,PC,2,Yes,2,Yes,3,Once a week,Never Used,Once a semester,9,50thTo75th
+833,Yes,Chromebook,1,Yes,1,Yes,3,Once a week,Once a semester,Once a week,6,0To25th
+855,Yes,Mac,2,Yes,1,Yes,1,Once a week,Once a semester,Once a month,6,0To25th
+909,Yes,PC,1,Yes,1,Yes,4,Once a month,Never Used,Never Used,7,25thTo50th
+1305,Yes,PC,3,No,0,Yes,2,Once a week,Never Used,Once a month,8,25thTo50th
+1611,Yes,Mac,2,Yes,5,Yes,6,Once a month,Never Used,Once a semester,15,75thto100
+1733,Yes,PC,4,No,0,Yes,1,Once a month,Once a semester,Once a week,9,50thTo75th
+1987,Yes,PC,1,No,0,Yes,5,Once a month,Never Used,Once a semester,7,25thTo50th
+2084,Yes,PC,1,No,0,Yes,3,Once a semester,Never Used,Never Used,5,0To25th
+2260,Yes,PC,4,No,0,Yes,4,Once a month,Never Used,Never Used,12,75thto100
+2710,Yes,Mac,3,No,0,Yes,3,Once a week,Never Used,Once a semester,9,50thTo75th
+2851,Yes,PC,3,Yes,1,No,0,Once a month,Never Used,Never Used,7,25thTo50th
+2873,Yes,Multi,3,No,0,Yes,7,Once a week,Once a semester,Once a semester,13,75thto100
+2933,Yes,PC,2,No,0,Yes,4,Once a month,Never Used,Once a semester,8,25thTo50th
+3038,Yes,Chromebook,1,Yes,6,Yes,2,Once a month,Never Used,Once a semester,10,50thTo75th
+3076,Yes,Mac,1,No,0,Yes,4,Once a month,Never Used,Once a semester,6,0To25th
+3209,Yes,Multi,1,Yes,1,Yes,4,Once a week,Never Used,Never Used,7,25thTo50th
+3246,Yes,PC,3,No,0,Yes,7,Once a month,Once a semester,Once a month,13,75thto100
+3272,Yes,Chromebook,1,Yes,1,Yes,4,Once a semester,Once a semester,Never Used,7,25thTo50th
+3343,Yes,PC,15,No,0,Yes,15,Daily,Never Used,Daily,45,75thto100
+3411,Yes,PC,1,No,0,Yes,4,Once a week,Never Used,Once a month,6,0To25th
+3433,Yes,Mac,1,No,0,Yes,8,Once a week,Never Used,Once a month,10,50thTo75th
+3498,Yes,Chromebook ,1,Yes,1,Yes,5,Once a week,Never Used,Once a semester,8,25thTo50th
+3619,Yes,Chromebook,4,Yes,1,Yes,5,Once a month,Never Used,Once a semester,14,75thto100
+3658,Yes,Mac,3,No,0,Yes,5,Once a month,Never Used,Once a semester,11,75thto100
+3727,Yes,Mac,5,Yes,2,Yes,8,Once a week,Once a semester,Once a semester,20,75thto100
+3738,Yes,Chromebook,2,No,0,Yes,5,Once a week,Once a semester,Never Used,9,50thTo75th
+3807,Yes,Chromebook,1,No,0,Yes,5,Once a semester,Never Used,Never Used,7,25thTo50th
+4035,Yes,,1,Yes,1,Yes,3,Once a month,Never Used,Once a week,6,0To25th
+4312,Yes,PC,2,No,0,Yes,3,Once a month,Never Used,Once a week,7,25thTo50th
+4483,No,,0,No,0,Yes,5,Once a week,Once a semester,Once a month,5,0To25th
+4508,Yes,Mac,1,No,0,Yes,3,Once a month,Never Used,Once a semester,5,0To25th
+4634,Yes,PC,4,No,0,Yes,6,Once a month,Once a semester,Once a semester,14,75thto100
+4677,Yes,PC,2,No,0,Yes,5,Once a month,Never Used,Never Used,9,50thTo75th
+4788,No,,0,Yes,1,Yes,6,Once a week,Never Used,Once a week,7,25thTo50th
+5176,Yes,Mac,1,Yes,1,Yes,4,Once a week,Once a semester,Once a semester,7,25thTo50th
+5387,Yes,Mac,3,Yes,3,Yes,8,Once a month,Once a semester,Once a week,17,75thto100
+5589,Yes,Mac,1,Yes,1,Yes,4,Once a month,Once a semester,Once a month,7,25thTo50th
+5607,Yes,Multi,1,Yes,1,Yes,9,Once a week,Never Used,Never Used,12,75thto100
+5631,Yes,Mac,2,No,0,Yes,8,Once a month,Never Used,Never Used,12,75thto100
+5851,Yes,PC,2,No,0,Yes,5,Once a month,Never Used,Never Used,9,50thTo75th
+6583,Yes,Chromebook,1,Yes,1,Yes,14,Once a month,Never Used,Never Used,17,75thto100
+6588,Yes,Chromebook,1,No,0,Yes,4,Once a month,Once a semester,Once a semester,6,0To25th
+6643,Yes,Chromebook,1,Yes,1,Yes,1,Once a week,Never Used,Once a month,4,0To25th
+6700,Yes,Mac,1,Yes,1,Yes,5,Once a month,Never Used,Once a semester,8,25thTo50th
+7165,Yes,Mac,2,No,0,Yes,4,Once a week,Never Used,Never Used,8,25thTo50th
+7198,Yes,PC,2,No,0,Yes,2,Once a week,Never Used,Never Used,6,0To25th
+7417,Yes,Mac,1,No,0,Yes,2,Once a week,Never Used,Once a month,4,0To25th
+7470,Yes,Mac,1,No,0,Yes,4,Once a week,Never Used,Once a week,6,0To25th
+7636,Yes,PC,2,Yes,1,Yes,5,Once a week,Never Used,Never Used,10,50thTo75th
+7725,Yes,PC,1,Yes,1,Yes,8,Once a month,Never Used,Once a month,11,75thto100
+7912,Yes,PC,1,No,0,Yes,8,Once a semester,Never Used,Once a month,10,50thTo75th
+7993,Yes,PC,4,Yes,1,Yes,3,Once a week,Never Used,Never Used,12,75thto100
+8020,Yes,Mac,1,No,0,Yes,4,Once a month,Never Used,Once a month,6,0To25th
+8378,Yes,Mac,1,No,0,Yes,4,Once a week,Once a semester,Never Used,6,0To25th
+8419,Yes,Mac,1,No,0,Yes,7,Once a semester,Never Used,Never Used,9,50thTo75th
+8482,Yes,PC,1,No,0,Yes,5,Once a week,Never Used,Once a week,7,25thTo50th
+8501,Yes,Mac,2,Yes,2,Yes,1,Once a month,Never Used,Once a semester,7,25thTo50th
+8768,Yes,PC,1,No,0,Yes,4,Once a month,Never Used,Once a semester,6,0To25th
+8792,Yes,Mac,2,Yes,1,Yes,4,Once a week,Never Used,Once a semester,9,50thTo75th
+8830,Yes,Mac,2,Yes,1,Yes,4,Once a month,Never Used,Once a semester,9,50thTo75th
+8962,Yes,PC,3,Yes,1,Yes,6,Once a semester,Never Used,Once a semester,13,75thto100
+9050,Yes,Chromebook,1,No,0,No,0,Daily,Never Used,Never Used,2,0To25th
+9114,Yes,Mac,1,No,0,Yes,4,Once a month,Once a semester,Once a month,6,0To25th
+9152,Yes,PC,1,No,0,Yes,1,Once a month,Never Used,Never Used,3,0To25th
+9183,Yes,Mac,1,Yes,1,Yes,1,Once a month,Never Used,Once a semester,4,0To25th
+12874,Yes,Mac,1,Yes,5,Yes,1,Once a month,Once a semester,Once a semester,8,25thTo50th
